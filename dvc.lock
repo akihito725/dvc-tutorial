@@ -4,8 +4,8 @@ stages:
     cmd: python3 src/prepare.py data/data.xml
     deps:
     - path: data/data.xml
-      md5: f6e19e2cbe1400d59bb0b0a8b199c031
-      size: 37914400
+      md5: 392ab63f85e452de13bed7dbcfea0cbd
+      size: 37900560
     - path: src/prepare.py
       md5: 51549a1c87b182ebdd785704f56ffaf1
       size: 1581
@@ -50,7 +50,7 @@ stages:
     params:
       params.yaml:
         train.min_split: 2
-        train.n_est: 50
+        train.n_est: 10
         train.seed: 20170428
     outs:
     - path: model.pkl

@@ -1,3 +1,5 @@
+# @format
+
 prepare:
   split: 0.20
   seed: 20170428
@@ -8,5 +10,5 @@ featurize:
 
 train:
   seed: 20170428
-  n_est: 50
+  n_est: 10
   min_split: 2
